@@ -1,0 +1,31 @@
+title: jpang7
+description: Personal blog and notes
+url: "https://jpang7.github.io"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Using custom layouts (no theme)
+
+# Collections (optional)
+collections:
+  posts:
+    output: true
+    permalink: /:collection/:name
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+

@@ -1,0 +1,46 @@
+---
+layout: default
+title: CUDA Notes
+---
+
+# Programming Massively Parallel Processors: A Hands-on Approach - 2nd ed
+
+## Notes - Preface
+Vision: computational thinking, parallel programming to many students.
+
+Phased approach to teaching class:
+1. Ch 3 (basic memory/threading model, tools)
+Ch 4, 5, 6 (concepts-- memory, threads, hardware, architecture)
+2. Ch 7-10 floating point, parallel programming patterns.
+Assignments on convolution, vector reduction, matmul, prefix sum.
+**Q: Where do i find these assignments?**
+3. Ch 11-20 case studies, more models, principles
+
+Didn't read rest on final project.
+
+I need a project to apply this knowledge to. I don't have one.
+I will trust that as I read I will get ideas.
+
+I will read Ch 1-10 (234 pages) not very carefully.
+
+Even if there are no assignments, I think implementing stuff is good.
+
+## Notes - Ch 1
+GFLOPS, TFLOPS (floating point operations per second) with
+single CPU microprocessors. In 2003, adoption of microprocessors
+with multiple processing units.
+
+A sequential program doesn't benefit from adding more processors,
+as it runs on one core. Parallel programs do benefit, hence urgency.
+
+```
+1.1 Heterogeneous parallel computing
+Multicore maximizes performance of sequential, many-thread of parallel.
+GPUs outperform CPUs in floating-point performance (Q: what is this?) by 10x as of 2012.
+Why? Optimizing for sequential has other priorities, like control logic (?) and caching.
+Requirements from legacy OS, applications, I/O make memory bandwidth harder to increase.
+Video games want floating-point performance. GPUs have smaller, but more ALUs.
+
+Gonna skip to Ch 3 xD
+```
+## Notes - Ch 3
