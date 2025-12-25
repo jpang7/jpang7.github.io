@@ -29,3 +29,7 @@ date: 2025-12-25
 - Design a meaningful microbenchmark
 - Win at least 2 games at locals
 - Consistent slow moving ollies
+
+# Goals 2026
+
+Get a performance win
