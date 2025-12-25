@@ -4,6 +4,8 @@ title: "2025 Summary"
 date: 2025-12-25
 ---
 
+Review of 2025 and goals for 2026
+
 - Closer to God (consistent prayer)
 - Published AGT Bell Guard
 - Switched teams
