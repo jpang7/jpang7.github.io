@@ -1,0 +1,4 @@
+{% assign width = include.width | default: 100 %}
+{% assign alt = include.alt | default: "Image" %}
+<img src="{{ site.baseurl }}{{ include.src }}" alt="{{ alt }}" style="width: {{ width }}%; height: auto; display: block;">
+

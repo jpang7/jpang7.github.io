@@ -11,7 +11,7 @@ plugins:
 
 # Using custom layouts (no theme)
 
-# Collections (optional)
+# Collections
 collections:
   posts:
     output: true
