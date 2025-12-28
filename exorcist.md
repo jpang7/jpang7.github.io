@@ -3,7 +3,8 @@ layout: default
 title: eXorcist RPG
 ---
 
-These are notes in case I forget something.
+eXorcist is an RPG in development with RPG Maker MZ and my own assets. These are
+notes for my future reference and a progress log.
 
 # Plugins
 
@@ -17,6 +18,10 @@ Plugin installation instructions
 [here](https://forums.rpgmakerweb.com/index.php?threads/lunatechs-mv-mz-plugins-tools.127082/page-5#post-1181837)
 
 Repo [here](https://github.com/LunaTechsDev/Luna-QPlugins/releases)
+
+Add the collision map like this:
+
+{% include image.html src="/img/cm_tutorial.png" alt="Add collision map like this" width=75 %}
 
 ## OrangeMapshot for MZ
 
