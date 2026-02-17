@@ -37,6 +37,19 @@ instructions [here](https://hudell.itch.io/cyclone-tile-priority)
 
 # Progress Log
 
+## 2/16/26
+
+Happy new year
+
+Immediate work items
+
+- station needs to be bigger and gradually more liminal/odd
+- text prompts while chc in motion (optional)
+- kiosk: eta is delayed
+- bench: sit and wait?
+- leaving: "I should just sit and wait"
+- sitting: procs a cutscene
+
 ## 12/28/25
 
 - Made movement pixel-perfect
