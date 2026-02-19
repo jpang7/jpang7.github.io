@@ -37,6 +37,36 @@ instructions [here](https://hudell.itch.io/cyclone-tile-priority)
 
 # Progress Log
 
+## 2/18/26
+
+Progress
+
+- Made station bigger
+- Set up the "I should sit and wait" event
+
+Event icon: {% include image.html src="/img/events.png" alt="events" width=5 %}
+
+Remaining
+
+- Figure out how to make liminal
+- Text prompts while walking
+- Address cruft herald sq map debug
+- kiosk: eta is delayed
+- bench: sit and wait?
+- sitting: procs a cutscene
+
+sit and wait:
+{% include image.html src="/img/sit_and_wait.png" alt="sit and wait" width=75 %}
+
+cruft:
+{% include image.html src="/img/heraldsq_cruft.png" alt="cruft" width=75 %}
+
+Ideas for liminal
+
+- Ripple effect?
+  https://toshaangel.itch.io/screen-effects-plugin-for-rpg-maker-mz
+- Animated tiles?
+
 ## 2/16/26
 
 Happy new year
