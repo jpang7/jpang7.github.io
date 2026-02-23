@@ -37,6 +37,18 @@ instructions [here](https://hudell.itch.io/cyclone-tile-priority)
 
 # Progress Log
 
+## 2/22/26
+
+Added kiosk action button trigger.
+
+Remaining
+
+- Figure out how to make liminal
+- Text prompts while walking
+- Address cruft herald sq map debug
+- bench: sit and wait?
+- sitting: procs a cutscene
+
 ## 2/18/26
 
 Progress
