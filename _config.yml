@@ -16,6 +16,9 @@ collections:
   posts:
     output: true
     permalink: /:collection/:name
+  apps:
+    output: true
+    permalink: /apps/:name
 
 # Defaults
 defaults:
@@ -24,6 +27,11 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+  - scope:
+      path: ""
+      type: "apps"
+    values:
+      layout: "app"
   - scope:
       path: ""
     values:

@@ -1,0 +1,49 @@
+---
+layout: default
+title: Apps
+---
+
+<h2>Apps</h2>
+
+<p>Small projects, one per week.</p>
+
+<ul class="apps-list">
+  {% for app in site.apps reversed %}
+    <li>
+      <h3><a href="{{ site.baseurl }}{{ app.url }}">{{ app.title }}</a></h3>
+      {% if app.date %}
+        <p class="post-date">{{ app.date | date: "%B %d, %Y" }}</p>
+      {% endif %}
+      {% if app.excerpt %}
+        <p>{{ app.excerpt }}</p>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
+
+<style>
+.apps-list {
+  list-style: none;
+  padding: 0;
+}
+.apps-list li {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+.apps-list h3 {
+  margin: 0 0 5px 0;
+}
+.apps-list h3 a {
+  text-decoration: none;
+  color: #0066cc;
+}
+.apps-list h3 a:hover {
+  text-decoration: underline;
+}
+.post-date {
+  color: #666;
+  font-size: 0.9em;
+  margin: 0 0 10px 0;
+}
+</style>

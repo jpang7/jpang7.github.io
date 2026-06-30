@@ -1,0 +1,4 @@
+{% assign width = include.width | default: 30 %}
+<video controls style="width: {{ width }}%; height: auto; display: block;">
+  <source src="{{ site.baseurl }}{{ include.src }}" type="{{ include.type }}">
+</video>
