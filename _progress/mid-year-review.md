@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Mid Year Review"
 date: 2026-06-29
 ---

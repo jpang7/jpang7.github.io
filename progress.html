@@ -1,0 +1,49 @@
+---
+layout: default
+title: Progress
+---
+
+<h2>Progress</h2>
+
+<p>Habit and goal tracking.</p>
+
+<ul class="progress-list">
+  {% for item in site.progress reversed %}
+    <li>
+      <h3><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></h3>
+      {% if item.date %}
+        <p class="post-date">{{ item.date | date: "%B %d, %Y" }}</p>
+      {% endif %}
+      {% if item.excerpt %}
+        <p>{{ item.excerpt }}</p>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
+
+<style>
+.progress-list {
+  list-style: none;
+  padding: 0;
+}
+.progress-list li {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+.progress-list h3 {
+  margin: 0 0 5px 0;
+}
+.progress-list h3 a {
+  text-decoration: none;
+  color: #0066cc;
+}
+.progress-list h3 a:hover {
+  text-decoration: underline;
+}
+.post-date {
+  color: #666;
+  font-size: 0.9em;
+  margin: 0 0 10px 0;
+}
+</style>

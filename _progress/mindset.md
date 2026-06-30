@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Mindset"
 date: 2026-01-03
 ---

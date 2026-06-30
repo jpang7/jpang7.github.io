@@ -13,25 +13,33 @@ plugins:
 
 # Collections
 collections:
-  posts:
-    output: true
-    permalink: /:collection/:name
   apps:
     output: true
     permalink: /apps/:name
+  math:
+    output: true
+    permalink: /math/:name
+  progress:
+    output: true
+    permalink: /progress/:name
 
 # Defaults
 defaults:
   - scope:
       path: ""
-      type: "posts"
-    values:
-      layout: "post"
-  - scope:
-      path: ""
       type: "apps"
     values:
       layout: "app"
+  - scope:
+      path: ""
+      type: "math"
+    values:
+      layout: "math"
+  - scope:
+      path: ""
+      type: "progress"
+    values:
+      layout: "progress"
   - scope:
       path: ""
     values:

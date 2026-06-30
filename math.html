@@ -1,0 +1,49 @@
+---
+layout: default
+title: Math
+---
+
+<h2>Math</h2>
+
+<p>Notes and explorations in mathematics.</p>
+
+<ul class="math-list">
+  {% for item in site.math reversed %}
+    <li>
+      <h3><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></h3>
+      {% if item.date %}
+        <p class="post-date">{{ item.date | date: "%B %d, %Y" }}</p>
+      {% endif %}
+      {% if item.excerpt %}
+        <p>{{ item.excerpt }}</p>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
+
+<style>
+.math-list {
+  list-style: none;
+  padding: 0;
+}
+.math-list li {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+.math-list h3 {
+  margin: 0 0 5px 0;
+}
+.math-list h3 a {
+  text-decoration: none;
+  color: #0066cc;
+}
+.math-list h3 a:hover {
+  text-decoration: underline;
+}
+.post-date {
+  color: #666;
+  font-size: 0.9em;
+  margin: 0 0 10px 0;
+}
+</style>

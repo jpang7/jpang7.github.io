@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "2025 Summary"
 date: 2025-12-25
 ---
