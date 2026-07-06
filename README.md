@@ -23,17 +23,17 @@ bundle exec jekyll serve
 
 Then visit `http://localhost:4000` in your browser.
 
-Note: changes to `_config.yml` (e.g. adding a new collection) require
-restarting the server — they are not picked up by the live reload.
+Note: changes to `_config.yml` (e.g. adding a new collection) require restarting
+the server — they are not picked up by the live reload.
 
 ## Sections
 
 Each section is a Jekyll collection with its own folder and index page:
 
-| Section  | Content folder | Index page      | Layout                 |
-|----------|----------------|-----------------|------------------------|
-| Apps     | `_apps/`       | `apps.html`     | `_layouts/app.html`    |
-| Math     | `_math/`       | `math.html`     | `_layouts/math.html`   |
+| Section  | Content folder | Index page      | Layout                   |
+| -------- | -------------- | --------------- | ------------------------ |
+| Apps     | `_apps/`       | `apps.html`     | `_layouts/app.html`      |
+| Math     | `_math/`       | `math.html`     | `_layouts/math.html`     |
 | Progress | `_progress/`   | `progress.html` | `_layouts/progress.html` |
 
 ## Adding a Page to a Section
@@ -55,8 +55,8 @@ automatically appear on that section's index.
 ## Adding a New Section
 
 1. Register a collection in `_config.yml` (under `collections:`) with
-   `output: true` and a `permalink`, plus a `defaults` entry mapping its type
-   to a layout.
+   `output: true` and a `permalink`, plus a `defaults` entry mapping its type to
+   a layout.
 2. Create the content folder `_<section>/`.
 3. Create an index page `<section>.html` (copy an existing one and swap
    `site.<section>`).
