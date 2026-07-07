@@ -9,6 +9,7 @@ title: Progress
 
 <ul class="progress-list">
   {% for item in site.progress reversed %}
+  {% unless item.hide_from_progress_index %}
   <li>
     <h3><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></h3>
     {% if item.date %}
@@ -17,6 +18,7 @@ title: Progress
     <p>{{ item.excerpt }}</p>
     {% endif %}
   </li>
+  {% endunless %}
   {% endfor %}
 </ul>
 
