@@ -39,6 +39,11 @@ diff_geo_entries:
     </tbody>
   </table>
 
+  <div class="day-log" data-date="7/7">
+    <h3>Tue 7/7</h3>
+    Nothing. Played One Piece. Knew I was going to play, so tried reading ML at work, but was also unusually tired at work.
+  </div>
+
   <div class="day-log" data-date="7/6">
     <h3>Mon 7/6</h3>
     The animation still has a 75% skip rate off of 150 or so views. It's just a loop of one second, so something needs to happen in the 2nd second.
