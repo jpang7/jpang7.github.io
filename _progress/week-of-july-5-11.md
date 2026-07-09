@@ -39,6 +39,11 @@ diff_geo_entries:
     </tbody>
   </table>
 
+  <div class="day-log" data-date="7/8">
+    <h3>Wed 7/8</h3>
+    Nothing. Hung out with friends after work. Feeling more refreshed.
+  </div>
+
   <div class="day-log" data-date="7/7">
     <h3>Tue 7/7</h3>
     Nothing. Played One Piece. Knew I was going to play, so tried reading ML at work, but was also unusually tired at work.
